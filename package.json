@@ -1,7 +1,7 @@
 {
     "name": "jest-tests",
     "version": "1.0.0",
-    "description": "",
+    "description": "Another lesson in Test Driven Development\r Using a learning method known as 'the kata' (Derived from karate) to repeatedly improve upon oneself incrementally with each try.",
     "main": "index.js",
     "scripts": {
         "test": "jest",
@@ -15,5 +15,17 @@
         "babel-polyfill": "6.26.0",
         "@babel/preset-env": "7.7.1",
         "jest": "24.9.0"
-    }
+    },
+    "directories": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/OperationFman/FranksFizzBuzz.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/OperationFman/FranksFizzBuzz/issues"
+    },
+    "homepage": "https://github.com/OperationFman/FranksFizzBuzz#readme"
 }
