@@ -2,7 +2,7 @@
 Another lesson in Test Driven Development
 Using a learning method known as 'the kata' (Derived from karate) to repeatedly improve upon oneself incrementally with each try.
 
-**The goal is to create a bowling game with unit tests.**
+**The goal is to complete the FizzBuzz quiz with unit tests.**
 
 The Game:
 * Write a program that prints one line for each number from 1 to 100
