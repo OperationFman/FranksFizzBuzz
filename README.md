@@ -1,31 +1,19 @@
-# Jest unit tests
+## Context
+Another lesson in Test Driven Development
+Using a learning method known as 'the kata' (Derived from karate) to repeatedly improve upon oneself incrementally with each try.
 
-This folder contains a unit test template for [Jest](https://facebook.github.io/jest).
+**The goal is to create a bowling game with unit tests.**
 
-Configured to support ES6 syntax using Babel (preset `es2015`)
+The Game:
+* Write a program that prints one line for each number from 1 to 100
+* For multiples of three print Fizz instead of the number
+* For the multiples of five print Buzz instead of the number
+* For numbers which are multiples of both three and five print FizzBuzz instead of the number
 
-## Installation
-
-```bash
-npm install
-```
-
-## Running the tests
-
-```bash
-npm test
-```
-
-Or you can use built-in watch mode:
-
-```bash
-npm run test:watch
-```
-
-## Show coverage
-
-```bash
-npm run test:cover
-```
-
-Note: coverage is also included in watch mode.
+## Tech Stack
+* Typescript
+* Javascript
+  * Jest Javascript Framework
+  
+## Original Repo Found Here:
+https://github.com/swkBerlin/kata-bootstraps/tree/master/js/jest-tests
