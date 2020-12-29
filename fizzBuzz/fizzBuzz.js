@@ -5,6 +5,12 @@ const fizzBuzz= {
         };
         return number;
     },
+    fizz: function(number) {
+        if (number % 3 == 0) {
+            return "Fizz"
+        };
+        return number;
+    },
     buzz: function(number) {
         if (number % 5 == 0) {
             return "Buzz"
