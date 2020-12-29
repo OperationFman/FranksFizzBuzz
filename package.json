@@ -4,7 +4,7 @@
     "description": "Another lesson in Test Driven Development\r Using a learning method known as 'the kata' (Derived from karate) to repeatedly improve upon oneself incrementally with each try.",
     "main": "index.js",
     "scripts": {
-        "test": "jest",
+        "test": "jest --coverage",
         "test:cover": "jest --coverage",
         "test:watch": "jest --watch --coverage"
     },
