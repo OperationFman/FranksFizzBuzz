@@ -1,11 +1,10 @@
 const { TestScheduler } = require('jest');
-const FizzBuzz = require('./../fizzBuzz/fizzBuzz.js');
-const fizzBuzz = FizzBuzz.fizzBuzz
+const fizzBuzz = require('./../fizzBuzz/fizzBuzz.js');
 
 test('FizzBuzz triggered when number is a multiple of 15', () => {
     expect(fizzBuzz(15)).toBe('FizzBuzz');
 });
 
 test('FizzBuzz triggered when number is a multiple of 15', () => {
-    expect(FizzBuzz.fizzBuzz(9)).toBe(9);
+    expect(fizzBuzz(9)).toBe(9);
 });
