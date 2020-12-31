@@ -1,5 +1,7 @@
 var total_numbers = 100
 var start_number = 1
+var fizzbuzz_multiple = 15
+var fizz_multiple = 3
 var buzz_multiple = 5
 
 const fizzBuzz = {
