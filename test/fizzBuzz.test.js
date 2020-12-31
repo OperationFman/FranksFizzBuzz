@@ -17,10 +17,10 @@ test('buzz returns correct boolean depending on multiple', () => {
 });
 
 test('fizzBuzz.check returns correct strings or the number', () => {
-    expect(fizzBuzz.check(15)).toBe('FizzBuzz');
-    expect(fizzBuzz.check(3)).toBe('Fizz');
-    expect(fizzBuzz.check(5)).toBe('Buzz');
-    expect(fizzBuzz.check(1)).toBe(1);
+    expect(fizzBuzz.check(30)).toBe('FizzBuzz');
+    expect(fizzBuzz.check(93)).toBe('Fizz');
+    expect(fizzBuzz.check(65)).toBe('Buzz');
+    expect(fizzBuzz.check(22)).toBe(22);
 });
 
 test('Final 0-100 output matches and is correct', () => {
