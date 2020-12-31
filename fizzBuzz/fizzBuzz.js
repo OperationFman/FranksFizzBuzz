@@ -1,3 +1,5 @@
+var total_numbers = 100
+var start_number = 1
 const fizzBuzz = {
     fizzAndBuzz: function(number) {
         if (number % 15 == 0) {
@@ -27,9 +29,14 @@ const fizzBuzz = {
         } else {
             return number
         };
-    },
-        }
     }
-}
+};
+
+function runFizzBuzz() {
+    for (i = start_number; i < total_numbers; i++) {
+        result = fizzBuzz.check(i);
+        console.log(result);
+    };
+};
 
 module.exports = fizzBuzz
