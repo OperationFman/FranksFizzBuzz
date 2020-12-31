@@ -36,7 +36,7 @@ const fizzBuzz = {
         };
     },
     run: function() {
-        for (i = this.start_number; i < this.total_numbers; i++) {
+        for (i = this.start_number; i <= this.total_numbers; i++) {
             result = fizzBuzz.check(i);
             this.output.push(result);
         };
