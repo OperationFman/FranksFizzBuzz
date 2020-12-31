@@ -40,9 +40,10 @@ const fizzBuzz = {
             result = fizzBuzz.check(i);
             this.output.push(result);
         };
+        return this.output
     }
 };
-fizzBuzz.run()
-console.log(fizzBuzz.output)
+
+console.log(fizzBuzz.run())
 
 module.exports = fizzBuzz
