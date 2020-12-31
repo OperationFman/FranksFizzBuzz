@@ -1,20 +1,22 @@
 var total_numbers = 100
 var start_number = 1
+var buzz_multiple = 5
+
 const fizzBuzz = {
     fizzAndBuzz: function(number) {
-        if (number % 15 == 0) {
+        if (number % fizzbuzz_multiple == 0) {
             return true
         };
         return false
     },
     fizz: function(number) {
-        if (number % 3 == 0) {
+        if (number % fizz_multiple == 0) {
             return true
         };
         return false;
     },
     buzz: function(number) {
-        if (number % 5 == 0) {
+        if (number % buzz_multiple == 0) {
             return true
         };
         return false;
