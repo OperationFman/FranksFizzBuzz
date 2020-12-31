@@ -16,9 +16,9 @@ test('buzz returns correct boolean depending on multiple', () => {
     expect(fizzBuzz.buzz(9)).toBe(false);
 });
 
-test('fizzBuzz.run returns correct matches', () => {
-    expect(fizzBuzz.run(15)).toBe('FizzBuzz');
-    expect(fizzBuzz.run(3)).toBe('Fizz');
-    expect(fizzBuzz.run(5)).toBe('Buzz');
-    expect(fizzBuzz.run(1)).toBe(1);
+test('fizzBuzz.check returns correct strings or the number', () => {
+    expect(fizzBuzz.check(15)).toBe('FizzBuzz');
+    expect(fizzBuzz.check(3)).toBe('Fizz');
+    expect(fizzBuzz.check(5)).toBe('Buzz');
+    expect(fizzBuzz.check(1)).toBe(1);
 });

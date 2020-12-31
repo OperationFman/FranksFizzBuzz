@@ -17,7 +17,7 @@ const fizzBuzz = {
         };
         return false;
     },
-    run: function(number) {
+    check: function(number) {
         if (this.fizzAndBuzz(number) == true) {
             return "FizzBuzz"
         } else if (this.fizz(number) == true) {
@@ -26,6 +26,8 @@ const fizzBuzz = {
             return "Buzz"
         } else {
             return number
+        };
+    },
         }
     }
 }
