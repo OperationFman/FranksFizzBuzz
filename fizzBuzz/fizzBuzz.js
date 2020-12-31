@@ -5,20 +5,21 @@ const fizzBuzz = {
     fizzbuzz_multiple: 15,
     fizz_multiple: 3,
     buzz_multiple: 5,
+    modulo_zero: 0,
     fizzAndBuzz: function(number) {
-        if (number % this.fizzbuzz_multiple == 0) {
+        if (number % this.fizzbuzz_multiple == this.modulo_zero) {
             return true
         };
         return false
     },
     fizz: function(number) {
-        if (number % this.fizz_multiple == 0) {
+        if (number % this.fizz_multiple == this.modulo_zero) {
             return true
         };
         return false;
     },
     buzz: function(number) {
-        if (number % this.buzz_multiple == 0) {
+        if (number % this.buzz_multiple == this.modulo_zero) {
             return true
         };
         return false;
