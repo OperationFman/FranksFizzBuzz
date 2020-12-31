@@ -1,5 +1,5 @@
 const fizzBuzz = {
-    output: {},
+    output: [],
     total_numbers: 100,
     start_number: 1,
     fizzbuzz_multiple: 15,
@@ -37,9 +37,11 @@ const fizzBuzz = {
     run: function() {
         for (i = this.start_number; i < this.total_numbers; i++) {
             result = fizzBuzz.check(i);
-            this.output(result);
+            this.output.push(result);
         };
     }
 };
+fizzBuzz.run()
+console.log(fizzBuzz.output)
 
 module.exports = fizzBuzz
