@@ -1,24 +1,24 @@
-var total_numbers = 100
-var start_number = 1
-var fizzbuzz_multiple = 15
-var fizz_multiple = 3
-var buzz_multiple = 5
-
 const fizzBuzz = {
+    output: {},
+    total_numbers: 100,
+    start_number: 1,
+    fizzbuzz_multiple: 15,
+    fizz_multiple: 3,
+    buzz_multiple: 5,
     fizzAndBuzz: function(number) {
-        if (number % fizzbuzz_multiple == 0) {
+        if (number % this.fizzbuzz_multiple == 0) {
             return true
         };
         return false
     },
     fizz: function(number) {
-        if (number % fizz_multiple == 0) {
+        if (number % this.fizz_multiple == 0) {
             return true
         };
         return false;
     },
     buzz: function(number) {
-        if (number % buzz_multiple == 0) {
+        if (number % this.buzz_multiple == 0) {
             return true
         };
         return false;
@@ -33,14 +33,13 @@ const fizzBuzz = {
         } else {
             return number
         };
+    },
+    run: function() {
+        for (i = this.start_number; i < this.total_numbers; i++) {
+            result = fizzBuzz.check(i);
+            this.output(result);
+        };
     }
-};
-
-function runFizzBuzz() {
-    for (i = start_number; i < total_numbers; i++) {
-        result = fizzBuzz.check(i);
-        console.log(result);
-    };
 };
 
 module.exports = fizzBuzz
