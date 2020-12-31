@@ -1,22 +1,24 @@
-const fizzBuzz= {
+const fizzBuzz = {
     fizzAndBuzz: function(number) {
         if (number % 15 == 0) {
-            return "FizzBuzz"
+            return true
         };
-        return number;
+        return false
     },
     fizz: function(number) {
         if (number % 3 == 0) {
-            return "Fizz"
+            return true
         };
-        return number;
+        return false;
     },
     buzz: function(number) {
         if (number % 5 == 0) {
-            return "Buzz"
+            return true
         };
-        return number;
+        return false;
     }
 }
+
+
 
 module.exports = fizzBuzz
