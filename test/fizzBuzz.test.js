@@ -24,3 +24,10 @@ test('Buzz triggered when number is a multiple of 5', () => {
 test('Buzz successfully not triggered', () => {
     expect(fizzBuzz.buzz(9)).toBe(false);
 });
+
+test('fizzBuzz.run returns correct matches', () => {
+    expect(fizzBuzz.run(15)).toBe('FizzBuzz');
+    expect(fizzBuzz.run(3)).toBe('Fizz');
+    expect(fizzBuzz.run(5)).toBe('Buzz');
+    expect(fizzBuzz.run(1)).toBe(1);
+});
