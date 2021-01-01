@@ -16,7 +16,7 @@ The Game:
 ## Tech Stack
 * Typescript
 * Javascript
-  * Jest Javascript Framework
+  * Jest Testing Framework
   
 ## Original Repo Found Here:
 https://github.com/swkBerlin/kata-bootstraps/tree/master/js/jest-tests
